@@ -6,7 +6,6 @@ export default function Netflix() {
   const [filme, setFilme] = useState('');
   const [catalogo, setCatalogo] = useState([]);
   const [qtd, setQtd] = useState([]);
-  const [url, setUrl] = useState('');
 
   async function Buscar() {
     const newCatalog = [];
